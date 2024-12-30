@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2 class="contact-title"><span>C</span>ontact</h2>
+            <p class="contact-paragraph">Nous sommes ravis de vous entendre ! Que vous ayez des questions sur nos produits, des suggestions pour améliorer notre service, ou que vous souhaitiez simplement en savoir plus sur notre entreprise, n'hésitez pas à nous contacter. Remplissez le formulaire ci-dessous, et notre équipe vous répondra dans les plus brefs délais. Merci de votre intérêt et de votre confiance !</p>
+            <div class="contactform">
+              
+                <form id="contactForm" onsubmit="validateForm(event)">
+                    <div class="inputboite">
+                        <input type="text" id="name" placeholder="Nom" required>
+                    </div>
+                    <div class="inputboite">
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="inputboite">
+                        <textarea id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="inputboite">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
